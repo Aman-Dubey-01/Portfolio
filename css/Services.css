@@ -1,0 +1,233 @@
+/* Services  */
+
+.services {
+  margin: auto 100px;
+  padding-top: 5rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* background: #6e9fae; */
+
+}
+
+
+.skillbox {
+  background: #113240;
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: -5px 5px 10px 5px rgba(184, 195, 186, 0.6);
+
+}
+
+.skillbox:hover {
+  transition: all .8s;
+  transform: translateY(-1.7rem) scale(1.1);
+  animation-fill-mode: backwards;
+  box-shadow: 0 0 5px 1px rgba(188, 188, 201, 0.6);
+
+  background-image: linear-gradient(120deg,transparent 0%,transparent 50%,#565f63 50%);
+    background-size: 255%;
+    background-position: 100%;
+}
+
+.skill1 {
+  text-align: center;
+  justify-content: center;
+
+  /* background-image: linear-gradient(to right bottom, rgba(9, 32, 63, .8) 0%, rgb(47, 79, 104, .8) 100%), url(../logo/web\ dev.png);
+  background-position: center;
+  background-size: 100%; */
+
+}
+
+.skill1 h4 {
+  font-size: 1.4rem;
+  color: #d5b174;
+  margin: 50px auto;
+  text-transform: capitalize;
+
+}
+
+.skill1 p {
+  font-size: 1.3rem;
+  color: #b4ced0;
+  margin: 40px auto;
+  width: 70%;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.skill2 {
+  text-align: center;
+  justify-content: center;
+  /* background-image: linear-gradient(to right bottom, rgba(9, 32, 63, .8) 0%, rgb(47, 79, 104, .9) 100%), url(../logo/ux.jpg);
+  background-position: center;
+  background-size: 100%; */
+
+}
+
+.skill2 h4 {
+  font-size: 1.4rem;
+  color: #d5b174;
+  margin: 50px auto;
+  text-transform: capitalize;
+
+}
+
+.skill2 p {
+  font-size: 1.3rem;
+  color: #b4ced0;
+  margin: 40px auto;
+  width: 80%;
+  font-weight: 400;
+}
+
+.skill3 {
+  text-align: center;
+  justify-content: center;
+
+  /* background-image: linear-gradient(to right bottom, rgba(9, 32, 63, .8) 0%, rgb(47, 79, 104, .8) 100%), url(../logo/editing.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 170%; */
+
+}
+
+.skill3 h4 {
+  font-size: 1.4rem;
+  color: #d5b174;
+  margin: 50px auto;
+  text-transform: capitalize;
+
+}
+
+.skill3 p {
+  font-size: 1.3rem;
+  color: #b4ced0;
+  margin: 40px auto;
+  width: 70%;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.about-bg__cylinder {
+  position: absolute;
+  right: -12%;
+  margin-top: 5%;
+  width: 25%;
+  transform: translateX(-50%) translateY(-50%);
+  /* animation: leftRight 2s linear  infinite ; */
+}
+
+@media screen and (max-width:1200px) {
+
+  .services {
+    margin: 100px auto;
+    padding: 0 auto;
+    
+    padding-top: 5rem;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+
+  .skillbox {
+    margin-top: 30px;
+    margin-left: 50px;
+    padding: 10px auto;
+    height: 280px;
+    width: 260px;
+    border-radius: 20px;
+    box-shadow: -2px 2px 5px 2px rgba(118, 134, 121, 0.6);
+  }
+
+  .about-bg__cylinder {
+    position: absolute;
+    right: -12%;
+    margin-top: 5%;
+    width: 25%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+}
+
+
+@media screen and (max-width:900px) {
+
+  .services {
+    padding: 0 auto;
+    padding-top: 5rem;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+
+  .skillbox {
+    margin-top: 30px;
+    padding: 10px auto;
+    height: 280px;
+    width: 260px;
+    border-radius: 20px;
+    box-shadow: -2px 2px 5px 2px rgba(118, 134, 121, 0.6);
+  }
+
+  .about-bg__cylinder {
+    position: absolute;
+    right: -12%;
+    margin-top: 5%;
+    width: 25%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+}
+
+@media screen and (max-width:600px) {
+
+  .services {
+    padding: 0 10%;
+    padding-top: 5rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+
+  .skillbox {
+    margin-top: 30px;
+    padding: 0 auto;
+    height: 280px;
+    width: 260px;
+    border-radius: 20px;
+    box-shadow: -2px 2px 5px 2px rgba(118, 134, 121, 0.6);
+  }
+
+  .skill3 h4 {
+    font-size: 1.2rem;
+    color: #d5b174;
+    margin: 50px auto;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+  
+  }
+
+  .about-bg__cylinder {
+    position: absolute;
+    right: -12%;
+    margin-top: 5%;
+    width: 25%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+}
+

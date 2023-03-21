@@ -1,0 +1,226 @@
+/* <<<<<<<<<<=======================>>>>>>>>>>> */
+/* Work  */
+
+
+.work {
+  position: absolute;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  position: relative;
+}
+
+.work .left {
+  width: 50%;
+  position: relative;
+  left: 10%;
+  /* animation: moveInLeft 1s ease-out both; */
+
+}
+
+.work .right {
+  width: 50%;
+  position: relative;
+  /* animation: moveInRight 1s ease-out both; */
+
+}
+
+.aboutQ {
+  display: flex;
+  position: absolute;
+  position: relative;
+  filter: drop-shadow(5px 5px 4px black);
+}
+
+.aboutQ p {
+  font-weight: 600;
+  font-size: 1.2rem;
+  /* color: #c8c8c4; */
+}
+
+
+.work #smline {
+  width: 80px;
+  height: 2px;
+  margin-top: 10px;
+  background-color: rgb(214, 216, 196);
+}
+
+.work h1 {
+  margin-top: 20px;
+  font-size: 3.5rem;
+  letter-spacing: 3px;
+  font-weight: 600;
+  ;
+}
+
+.work .intro {
+  font-size: 1.3rem;
+  padding-top: 20px;
+  width: 60%;
+  color: #c8c8c4;
+  letter-spacing: 1px;
+  text-align: justify;
+  line-height: 25px;
+}
+
+.work .right img {
+  margin-left: 4rem;
+  width: 70%;
+  transform: rotate(-15deg);
+  filter: drop-shadow(2px 40px 20px black);
+}
+
+.about-bg__circle {
+  position: absolute;
+  right: 80px;
+  margin-top: -15%;
+  width: 25%;
+  transform: translateX(-50%) translateY(-50%);
+  animation: rotate 9s linear infinite;
+}
+
+.skills .left img,
+.work .left img {
+  display: block;
+  height: 30px;
+  margin-left: 37vw;
+  margin-top: 10vh;
+  animation: upDown linear 3s infinite both;
+}
+
+@media screen and (max-width:900px) {
+
+  .work {
+    position: absolute;
+    height: 100vh;
+    display: flex;
+    margin-top: 200px;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+  }
+
+  .work .left {
+    width: 50%;
+    position: relative;
+    /* animation: moveInLeft 1s ease-out both; */
+
+  }
+
+  .work .right {
+    width: 50%;
+    position: relative;
+    /* animation: moveInRight 1s ease-out both; */
+
+  }
+
+  .aboutQ p {
+    font-weight: 600;
+    font-size: 1.1rem;
+    /* color: #c8c8c4; */
+  }
+
+
+  .work h1 {
+    margin-top: 20px;
+    font-size: 2.5rem;
+    ;
+  }
+
+  .work .intro {
+    font-size: 1.2rem;
+    padding-top: 20px;
+    width: 60%;
+  }
+
+  .work .right img {
+    margin-left: 4rem;
+    width: 70%;
+  }
+
+  .about-bg__circle {
+    position: absolute;
+    right: 80px;
+    margin-top: -15%;
+    width: 25%;
+    transform: translateX(-50%) translateY(-50%);
+    animation: rotate 9s linear infinite;
+  }
+
+  .work .left img {
+    display: block;
+    height: 30px;
+    margin-left: 37vw;
+    animation: upDown linear 3s infinite both;
+  }
+}
+
+@media screen and (max-width:600px) {
+
+  .work {
+    margin: 0;
+    padding-top: 8rem;
+    height: 100%;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .work .left {
+    width: 100%;
+    position: relative;
+    left: 10%;
+  }
+
+  .work .right {
+    width: 100%;
+  }
+
+  .work h1 {
+    padding: 5px 12%;
+    font-size: 1.7rem;
+  }
+
+  .work .intro {
+    margin: 0 10%;
+    padding-top: 20px;
+  }
+
+  .about .right img {
+    padding:0 5%;
+    width: 75%;
+  }
+
+  .aboutQ {
+    padding: 0 auto;
+    display: flex;
+    position: absolute;
+    position: relative;
+    filter: drop-shadow(0 0 4px black);
+  }
+
+  .work #smline {
+    width: 50px;
+    height: 2px;
+    margin-top: 10px;
+    background-color: rgb(214, 216, 196);
+  }
+
+
+  .work .right img {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 100px auto;
+    width: 70%;
+    transform: rotate(-15deg);
+    filter: drop-shadow(2px 20px 20px black);
+  }
+
+  .skills .left img,
+  .work .left img {
+    animation: upDown linear 3s infinite both;
+  }
+
+
+}

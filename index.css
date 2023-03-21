@@ -1,0 +1,56 @@
+/* Font  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap');
+
+
+/* Import CSS files divided in components */
+@import "./css/animations.css";
+/* @import "./css/Navbar.css"; */
+
+@import "./css/Navigation.css";
+
+@import "./css/Hero.css";
+@import "./css/About.css";
+@import "./css/Skills.css";
+@import "./css/Services.css";
+@import "./css/Work.css";
+@import "./css/Projects.css";
+@import "./css/Contact.css";
+@import "./css/Contactarea.css";
+@import "./css/Footer.css";
+
+/* <<<<<<<<<<=======================>>>>>>>>>>> */
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #19313c;
+  overflow: hidden;
+}
+
+
+
+/* <<<<<<<<<<=======================>>>>>>>>>>> */
+/* Style  */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  z-index: 1;
+  scroll-behavior: smooth;
+
+}
+
+
+body {
+  /* background-color: #1a4a60; */
+  background-color: #19313c;
+  color: #f7f7f7;
+}
+
+

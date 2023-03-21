@@ -1,0 +1,364 @@
+/* <<<<<<<<<<=======================>>>>>>>>>>> */
+/* About Me  */
+
+.about-bg__box{
+    position: absolute;
+    left: 40%;
+    /* margin-top: 10%; */
+    width: 20%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .about-bg__L{
+    position: absolute;
+    left: 45%;
+    margin-top: 35%;
+    width: 30%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  
+  .about {
+    padding-top: 8rem;
+    height: 100vh;
+    background-color: #19313c;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  .about .left {
+    width: 50%;
+    position: relative;
+    top: 25%;
+    left: 10%;
+  }
+  
+  .about .right {
+    width: 50%;
+  }
+  
+  .about .arrow {
+    width: 70px;
+    margin: 5rem 25rem;
+    animation: leftRight linear 3s infinite both;
+  }
+  
+  
+  .aboutQ {
+    display: flex;
+    position: absolute;
+    position: relative;
+  }
+  
+  .aboutQ p {
+    font-weight: 600;
+    color: #dcdc9c;
+    filter: drop-shadow(10px 10px 4px rgb(56, 54, 54));
+  }
+  
+  
+  .about #smline {
+    width: 80px;
+    height: 2px;
+    margin-top: 10px;
+    background-color: rgb(214, 216, 196);
+  }
+  
+  .about h1 {
+    margin-top: 20px;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    /* text-transform: uppercase; */
+    /* font-weight: 400; */
+    font-family: 'Poppins', sans-serif;
+    ;
+  }
+  
+  .about .intro {
+    padding-top: 10px;
+    width: 60%;
+    color: #c8c8c4;
+    letter-spacing: 1px;
+    text-align: justify;
+    line-height: 25px;
+    filter: drop-shadow(10px 0px 4px black);
+    /* background-color: linear-gradient(-90deg,#adfbda 0,#35c3ff 30%,#fda399 50%,#76d880 70%,#ebf38b 90%,#adfbda 100%);; */
+  }
+  
+  .about .right img {
+    margin-top: 5rem;
+    margin-left: 4rem;
+    width: 70%;
+    filter: drop-shadow(50px 10px 4px black);
+    background-image: url(./logo/ellipse.svg);
+    background-repeat: no-repeat;
+    background-size: 500px;
+  }
+
+    
+  @media screen and (max-width:600px) {
+
+    .about-bg__box{
+      position: absolute;
+      left: 40%;
+      width: 20%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+    
+    .about-bg__L{
+      position: absolute;
+      left: 45%;
+      margin-top: 35%;
+      width: 30%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+    
+    
+    .about {
+      margin: 0;
+      /* padding: 0 10%; */
+      overflow-x: hidden;
+      padding-top: 8rem;
+      height: 100%;
+      flex-direction: column;
+      width: 100%;
+    }
+    
+    .about .left {
+      width: 100%;
+      position: relative;
+    }
+    
+    .about .right {
+      width: 100%;
+    }
+    
+    .about .arrow {
+      width: 70px;
+      margin: 1rem 10%;
+      animation: leftRight linear 3s infinite both;
+    }
+    
+    .aboutQ {
+      padding: 0 auto;
+      display: flex;
+      position: absolute;
+      /* position: relative; */
+    }
+    
+    .about h1 {
+      padding: 20px 12%;
+      font-size: 2rem;
+    }
+    
+    .about .intro {
+      margin: 0 auto;
+      padding-top: 10px;
+    }
+    
+    .about .right img {
+      padding-left: 5%;
+      width: 90%;
+    }
+  }
+
+  
+  @media screen and (max-width:900px) {
+
+    .about-bg__box{
+      position: absolute;
+      left: 40%;
+      width: 20%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+    
+    .about-bg__L{
+      position: absolute;
+      left: 45%;
+      margin-top: 35%;
+      width: 30%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+    
+    
+    .about {
+      /* position: absolute; */
+      width: 100vw;
+      margin: 0 auto;
+      height: 100%;
+      flex-direction: row;
+      width: 100%;
+    }
+    
+    .about .left {
+      width: 50%;
+      /* position: relative; */
+    }
+    
+    .about .right {
+      width: 50%;
+    }
+    
+    .about .arrow {
+      width: 60px;
+      margin: 2rem 10%;
+      animation: leftRight linear 3s infinite both;
+    }
+    
+    
+    .about h1 {
+      font-size: 1.7rem;
+      /* margin:0 5%; */
+    }
+    
+    .about .intro {
+      /* margin: 0 10%; */
+      padding-top: 10px;
+    }
+    
+    .about .right img {
+      margin: 0 10%;
+      margin-top: 1rem;
+      width: 80%;
+    }
+  }
+
+
+  @media screen and (max-width:600px) {
+
+    .about-bg__box{
+      position: absolute;
+      left: 40%;
+      top: 50%;
+      width: 20%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+    
+    .about-bg__L{
+      position: absolute;
+      left: 45%;
+      margin-top: 35%;
+      width: 30%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+    
+    
+    .about {
+      /* position: absolute; */
+      margin: 0;
+      /* padding: 0 10%; */
+      overflow-x: hidden;
+      padding-top: 8rem;
+      height: 100%;
+      flex-direction: column;
+      width: 100%;
+    }
+    
+    .about .left {
+      width: 100%;
+      position: relative;
+    }
+    
+    .about .right {
+      width: 100%;
+    }
+    
+    .about .arrow {
+      width: 70px;
+      margin: 1rem 10%;
+      animation: leftRight linear 3s infinite both;
+    }
+    
+    .aboutQ {
+      padding: 0 auto;
+      display: flex;
+      position: absolute;
+      /* position: relative; */
+    }
+    
+    .about h1 {
+      padding: 20px 12%;
+      font-size: 2rem;
+    }
+    
+    .about .intro {
+      margin: 0 auto;
+      padding-top: 10px;
+    }
+    
+    .about .right img {
+      padding-left: 5%;
+      width: 90%;
+    }
+  }
+
+  
+  @media screen and (max-width:600px) {
+
+    .about-bg__box{
+      position: absolute;
+      left: 40%;
+      width: 20%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+    
+    .about-bg__L{
+      position: absolute;
+      left: 45%;
+      margin-top: 35%;
+      width: 30%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+    
+    
+    .about {
+      margin: 100px auto;
+      overflow-x: hidden;
+      padding-top: 4rem;
+      height: 100%;
+      flex-direction: column;
+      width: 100%;
+    }
+    
+    .about .left {
+      width: 100%;
+      /* position: relative; */
+    }
+    
+    .about .right {
+      width: 100%;
+    }
+    
+    .about .arrow {
+      width: 60px;
+      margin: 2rem 25%;
+      animation: leftRight linear 3s infinite both;
+    }
+    
+    .aboutQ {
+      padding: 0 10%;
+      display: flex;
+      position: absolute;
+      position: relative;
+    }
+  
+    
+    .about h1 {
+      margin:0 auto;
+      padding-top: 5px ;
+      padding-bottom: 5px ;
+    
+    }
+    
+    .about .intro {
+      margin: 0 10%;
+      padding-top: 5px;
+    }
+    
+    .about .right img {
+      margin: 0 5%;
+      margin-top: 1rem;
+      width: 80%;
+    }
+  }
